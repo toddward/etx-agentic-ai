@@ -47,7 +47,7 @@ By default the tenant and Helm chart reference `redhat-ai-services/etx-agentic-a
 [source,bash,options="wrap",role="execute"]
 ----
 export YOUR_GITHUB_USER=your-gh-user
-export YOUR_FORK=https://github.com/${YOUR_GITHUB_USER}/etx-agentic-ai.git
+export YOUR_FORK=https://github.com/toddward/etx-agentic-ai.git
 ----
 
 * Update the tenant Tekton Pipeline to use your fork and the correct endpoint:
@@ -213,7 +213,7 @@ spec:
     - name: IMAGE_NAME
       value: "image-registry.openshift-image-registry.svc:5000/ai-agent/ai-agent"
     - name: GIT_REPO
-      value: "https://github.com/${YOUR_GITHUB_USER}/etx-agentic-ai.git"
+      value: "https://github.com/toddward/etx-agentic-ai.git"
     - name: GIT_REVISION
       value: "bad"
     - name: PATH_CONTEXT

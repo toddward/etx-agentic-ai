@@ -632,7 +632,7 @@ cd etx-agentic-ai   # Navigate to root directory of code base if not already the
 +
 [source,bash,options="wrap",role="execute"]
 ----
-sed -i "s/redhat-ai-services/${YOUR_GITHUB_USER}/g" infra/app-of-apps/etx-app-of-apps.yaml
+sed -i "s/redhat-ai-services/toddward/g" infra/app-of-apps/etx-app-of-apps.yaml
 ----
 
 . Update the `redhat-ai-services` to your GitHub username in the `etx-app-of-apps.yaml` file.
@@ -640,7 +640,7 @@ sed -i "s/redhat-ai-services/${YOUR_GITHUB_USER}/g" infra/app-of-apps/etx-app-of
 [source,bash,options="wrap",role="execute"]
 ----
 for x in $(ls infra/app-of-apps/sno); do
-    sed -i "s/redhat-ai-services/${YOUR_GITHUB_USER}/g" infra/app-of-apps/sno/$x
+    sed -i "s/redhat-ai-services/toddward/g" infra/app-of-apps/sno/$x
 done
 ----
 
