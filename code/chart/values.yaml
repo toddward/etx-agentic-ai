@@ -14,7 +14,7 @@ agentConfig:
   # llamaStackUrl: "http://llamastack-with-config-service.default.svc.cluster.local:8321"
   maxInferIterations: "50"
   maxTokens: "5000"
-  modelId: "llama-4-scout-17b-16e-w4a16"
+  modelId: "vllm-llama-4-guard"
   temperature: "0.0"
 
 # Service Account configuration
