@@ -10,5 +10,5 @@ data:
   LLAMA_STACK_URL: "http://llamastack-with-config-service.llama-stack.svc.cluster.local:8321"
   MAX_INFER_ITERATIONS: "50"
   MAX_TOKENS: "5000"
-  MODEL_ID: "llama-4-scout-17b-16e-w4a16"
+  MODEL_ID: "vllm-llama-4-guard"
   TEMPERATURE: "0.0"
