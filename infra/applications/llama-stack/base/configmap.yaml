@@ -19,11 +19,11 @@ data:
     - vector_io
     - telemetry
     models:
-      - metadata: {}
-        model_id: granite-31-2b-instruct
-        provider_id: vllm
-        provider_model_id: granite-31-2b-instruct
-        model_type: llm
+    #  - metadata: {}
+    #    model_id: granite-31-2b-instruct
+    #    provider_id: vllm
+    #    provider_model_id: granite-31-2b-instruct
+    #    model_type: llm
       - metadata: {}
         model_id: llama-3-2-3b
         provider_id: vllm-llama-3-2-3b
