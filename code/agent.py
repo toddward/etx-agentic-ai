@@ -21,9 +21,9 @@ Whenever a tool is called, be sure to return the Response in a friendly and help
 """
 temperature = float(environ.get('TEMPERATURE', '0.0'))
 strategy = {"type": "greedy"}
-max_tokens = int(environ.get('MAX_TOKENS', '512'))
+max_tokens = int(environ.get('MAX_TOKENS', '1024'))
 client_timeout = float(environ.get('CLIENT_TIMEOUT', '600.0'))
-max_infer_iterations = int(environ.get('MAX_INFER_ITERATIONS', '10'))
+max_infer_iterations = int(environ.get('MAX_INFER_ITERATIONS', '20'))
 
 print(
     f'Inference Parameters:\n\tModel: {model_id}\n'
