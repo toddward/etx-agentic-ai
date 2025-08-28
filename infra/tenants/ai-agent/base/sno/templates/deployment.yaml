@@ -24,7 +24,7 @@ spec:
         deployment: ai-agent
     spec:
       containers:
-      - image: "image-registry.openshift-image-registry.svc:5000/ai-agent/ai-agent:latest"
+      - image: "image-registry.openshift-image-registry.svc:5000/ai-agent/ai-agent-2:latest"
         imagePullPolicy: IfNotPresent
         name: agent-service
         ports:
